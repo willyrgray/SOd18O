@@ -1,6 +1,5 @@
 # SOd18O
-calculates shifts in the Southern Ocean SST front over deglaciation (DLat_SST) using planktic foraminiferal d18O 
-it accompanies Gray et al (submitted) and is an updated version of the method used by Gray et al 2020 (https://doi.org/10.1029/2019GL086328)
+calculates shifts in the Southern Ocean SST front over deglaciation (DLat_SST) using planktic foraminiferal d18O. it accompanies Gray et al (submitted) and is an updated version of the method used by Gray et al 2020 (https://doi.org/10.1029/2019GL086328)
 
 SO_d18O_data.csv is a compilation of planktic foram d18O data from the southern ocean spanning the last deglaciation (10-20 ka)
 
