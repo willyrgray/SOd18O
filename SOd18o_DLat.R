@@ -1,5 +1,6 @@
 #analysis of planktonic foraminiferal d18O to track SO SST front over deglaciation 
-#this is an updated version of the method published in Gray, W.R. et al (2020) doi.org/10.1029/2019GL086328, developed for the Southern Ocean. it accompanies the manuscript Gray et al (submitted) 
+#this is an updated version of the method published in Gray, W.R. et al (2020) doi.org/10.1029/2019GL086328 
+#it accompanies the manuscript Gray et al (submitted) and has been developed for the Southern Ocean
 
 #mgcv must be installed
 require(mgcv)
