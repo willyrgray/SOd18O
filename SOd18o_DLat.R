@@ -33,7 +33,7 @@ dat2<- subset(dat, lat_n > -60) #all data except southern
 
 dat<- if(basin == 'ALL') {dat2} else
       if(basin == 'ATL') {subset(dat2, lon_e > -65 & lon_e < 25)} else
-      if(basin == 'PAC') {subset(dat2, lon_e < -65 | lon_e > 25)} else
+      if(basin == 'PAC') {subset(dat2, lon_e < -65 | lon_e > 25)} 
 
 dat<- rbind(dat,dat_pole)
 
