@@ -135,7 +135,7 @@ for (it in 1: mcmc_iterations) {
 		r1[i,]<- lat
 		#only includes records spanning entire age interval, requiring >10 data points over deglaciation within bootstrap resampling
 		if (end_age >= min(d$age, na.rm=TRUE) & start_age <= max(d$age, na.rm=TRUE) & length(d$d18o) >= 11){
-			k <- ifelse(length(d$d18o) > 30, 20, 10) #number of basis functions
+			k <- ifelse(length(d$d18o) > 30, 20, 10) #number of basis functions
 			#monte carlo error on age and d18o uncertainties
 			d$age<- rnorm(length(d$age), d$age, 0.5) #500 yr 1s age uncertainties
 			d$d18o<- rnorm(length(d$d18o), d$d18o, 0.04) #0.04 per mil 1s d18o uncertainty 
