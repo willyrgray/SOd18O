@@ -1,5 +1,5 @@
 # SOd18O
-calculates shifts in the Southern Ocean SST front over deglaciation (DLat_SST) using planktic foraminiferal d18O. it accompanies Gray et al (submitted) and is an updated version of the method used by Gray et al 2020 (https://doi.org/10.1029/2019GL086328)
+calculates shifts in the Southern Ocean SST front over deglaciation (DLat_SST) using planktic foraminiferal d18O. it accompanies Gray et al 2023 (https://doi.org/10.1029/2023PA004666) and is an updated version of the method used by Gray et al 2020 (https://doi.org/10.1029/2019GL086328)
 
 SO_d18O_data.csv is a compilation of planktic foram d18O data from the southern ocean spanning the last deglaciation (10-20 ka)
 
@@ -11,3 +11,6 @@ SO_d18O_DLat.R calculates DLat_SST
 - interpolates each d18O record to uniform timesteps using a generalised additive model, correcting the d18O data for whole ocean effects (sea level, global mean SST change)
 - models the d18O data as function of latitude using a generalised additive model at each time step
 - calculates the latitudinal shift that minimises the Euclidean distance between the modelled d18O data at each time step, relative to a reference timestep
+
+please cite as:
+Gray, W. R., de Lavergne, C., Jnglin Wills, R. C., Menviel, L., Spence, P., Holzer, M., et al. (2023). Poleward shift in the Southern Hemisphere westerly winds synchronous with the deglacial rise in CO2. Paleoceanography and Paleoclimatology, 38, e2023PA004666. https://doi.org/10.1029/2023PA004666
